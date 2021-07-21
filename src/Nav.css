@@ -1,0 +1,27 @@
+
+
+.Nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    padding: 15px;
+    /* justify-content:space-between; */
+    max-height: 60px;
+    background-color: transparent;
+    transition: all 0.5s;
+}
+.nav__logo{
+    width: 75px;
+    object-fit: contain;
+}
+.nav__user{
+    position: fixed;
+    right: 15px;
+    width: 30px;
+    object-fit: contain;
+}
+.nav__black{
+    background-color: #111;
+}
